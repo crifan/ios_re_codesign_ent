@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向开发：签名和权限",
+  "description": "介绍iOS逆向期间涉及到的codesign代码签名和entitlement权限等相关内容。先是给概览，再是entitlement权限，包括什么是entitlement权限，如何用ldid和codesign查看权限、以及常见的权限，比如get-task-allow、task_for_pid-allow、platform-application等等；接着介绍如何更改权限；然后介绍codesign代码签名，先介绍什么是codesign，然后介绍如何用codesign命令行工具查看签名信息，以及如何用ldid和codesign重新签名；接着介绍常用工具，包括ldid、codesign、security；接着介绍常见的问题，包括运行时崩溃killed、任意进程可调试，包括XinaA15自带支持和自己手动重签名、安装app时的签名问题、MonkeyDev调试时崩溃等，最后附录中贴上参考资料。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_codesign_ent"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_codesign_ent/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_codesign_ent/pdf/ios_re_codesign_ent.pdf"
+    }
+  }
+}
